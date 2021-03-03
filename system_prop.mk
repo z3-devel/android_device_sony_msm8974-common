@@ -87,6 +87,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
 
+# SoC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=MSM8974
+
 # Storage & USB OTG
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.sdcardfs=true \
