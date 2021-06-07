@@ -98,6 +98,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.sdcardfs=true \
     persist.sys.isUsbOtgEnabled=true
 
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vndk.version=current
+    
 # Time-service
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
