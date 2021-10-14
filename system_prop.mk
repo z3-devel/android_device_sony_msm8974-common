@@ -18,7 +18,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Bluetooth HandsFree profile
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1
-
+ 
+# BPF
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.kernel.ebpf.supported=false
+    
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.camera.facialproc=false \
