@@ -132,8 +132,8 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-impl \
-    android.hardware.light@2.0-service \
+    android.hardware.light-impl \
+    android.hardware.light-service \
     lights.msm8974
 
 # LiveDisplay
